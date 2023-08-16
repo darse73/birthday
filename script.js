@@ -53,7 +53,6 @@ const time = function() {
     time04.textContent = `${day2}日`
     time05.textContent = `${minutes2}分`
     time06.textContent = `${seconds2}秒`
-    setInterval(time, 1000)
 }
 
 letterFunc();
